@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Intercambio de Títulos</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="titulo1">Título 1</h1>
+  <h1 id="titulo2" class="hidden">Título 2</h1>
+
+  <button onclick="cambiarTitulo()">Cambiar Título</button>
+
+  <script>
+    function cambiarTitulo() {
+      const t1 = document.getElementById('titulo1');
+      const t2 = document.getElementById('titulo2');
+
+      t1.classList.toggle('hidden');
+      t2.classList.toggle('hidden');
+    }
+  </script>
+
+</body>
+</html>
