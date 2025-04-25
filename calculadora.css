@@ -1,0 +1,16 @@
+body{
+background-color: black;
+}
+
+.calculadora{
+    background-color: darkslategray;
+    height: 80%;
+margin-top: 5%;
+margin-left: 35%;
+margin-right: 35%;
+color: chartreuse;
+text-align: center;
+
+}
+
+
