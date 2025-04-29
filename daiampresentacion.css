@@ -70,6 +70,9 @@
       border-radius: 5px;
       font-weight: bold;
       transition: background-color 0.3s ease;
+      border: none;
+      display: grid;
+      top: 2%;
       
     }
 
@@ -120,9 +123,7 @@
       z-index: 1000;
     }
 
-    .catalogo{
-
-    }
+    
 
     #cart-icon {
       position: fixed;
@@ -178,8 +179,33 @@
     }
 
 
+.add-to-cart{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline:none;
+
+display: grid;
 
 
+}
 
+.contacto{
+bottom: 20px;
+right: 20px;
+position: fixed;
+text-align: right;
+background-attachment: fixed;
+padding: 1%;
+
+
+}
 
     
